@@ -6,20 +6,20 @@ var obstacleGroup, cloudGroup;
 function preload()
 {
 
-    t_rex = loadAnimation("Pics/trex1.png", "Pics/trex2.png", "Pics/trex3.png");
+    t_rex = loadAnimation("trex1.png", "trex2.png", "trex3.png");
 
-    trex_end = loadAnimation("Pics/trex_collided.png")
+    trex_end = loadAnimation("trex_collided.png")
         
-        groundAnimation = loadAnimation("Pics/ground.png");
+        groundAnimation = loadAnimation("ground.png");
 
-       cloudAnimation = loadAnimation("Pics/cloud.png");
+       cloudAnimation = loadAnimation("cloud.png");
         
-    obstacle1 = loadAnimation("Pics/obstacle1.png");
-    obstacle2 = loadAnimation("Pics/obstacle2.png");
-    obstacle3 = loadAnimation("Pics/obstacle3.png");
-    obstacle4 = loadAnimation("Pics/obstacle4.png");
-    obstacle5 = loadAnimation("Pics/obstacle5.png");
-    obstacle6 = loadAnimation("Pics/obstacle6.png");
+    obstacle1 = loadAnimation("obstacle1.png");
+    obstacle2 = loadAnimation("obstacle2.png");
+    obstacle3 = loadAnimation("obstacle3.png");
+    obstacle4 = loadAnimation("obstacle4.png");
+    obstacle5 = loadAnimation("obstacle5.png");
+    obstacle6 = loadAnimation("obstacle6.png");
  
     
 }
